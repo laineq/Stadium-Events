@@ -1,0 +1,144 @@
+h1{
+	font-family:  Georgia, "Times New Roman", Times, serif;
+	font-size: 40px;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+        padding: 30px;
+	margin: 0px;
+	text-align: center;
+	
+}
+h2{
+	font-family:  Georgia, "Times New Roman", Times, serif;
+	font-size: 35px;
+	text-align: center;
+}
+h3{
+	font-family:  Georgia, "Times New Roman", Times, serif;
+	font-size: 25px;
+}
+h4{
+	font-family:  Georgia, "Times New Roman", Times, serif;
+	font-size:15px;
+	text-align: center;
+}
+header{
+	position:fixed;
+	width:98.8%;
+	height:15%;
+	background:linear-gradient(#1a1a1a, #666666);
+	top:0;
+}
+nav ul{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	width:100%;
+	position:static;
+	text-align: center;
+	height:10%;
+	background: linear-gradient(#666666, #b3b3b3);
+	top:12%;
+}
+
+li{
+	display: inline;
+}
+nav li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+nav li a:hover {
+	background-color: #1a1a1a;
+}
+
+.bodytext#one{
+	margin-top:0%;
+	margin-left:0%;
+	padding:10px 10px 10px 15px;
+	height:100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+}
+
+.bodytext{
+	margin-top:5%;
+	margin-left:0%;
+	padding:10px 10px 10px 15px;
+	height:100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+}
+body{
+	background-color:#f1f1f1;
+}
+.imgleft{	
+ 	height: 50%;
+ 	width: 50%;
+	float: left;
+	margin-top :1em;
+	margin-bottom:1em;
+	margin-right:1em;
+	margin-left: 1em;}
+.imgright{	
+ 	height: 50%;
+ 	width: 50%;
+	float: right;
+	margin-top :1em;
+	margin-bottom:1em;
+	margin-right:1em;
+	margin-left: 1em;}
+.imgfull{
+	height:80%;
+	width:100%;
+	margin-top :1em;
+	margin-bottom:1em;
+	margin-right:1em;
+	margin-left: 1em;
+
+}
+.windowsTable{
+	border-width: 1px;
+	border-spacing:0px;
+	border-style: solid;
+	border-collapse: collapse;
+	margin: 25px 0px 25px 0px;
+	font-size: 20px;
+	text-align: center;
+	border-color: #1a1a1a}
+
+.windowsTable th{
+	border: 1px ;
+	border: thick solid #1a1a1a;
+	padding: 4px;}
+
+
+.windowsTable td{
+	border: 1px thick solid #1a1a1a;
+	padding: 4px;}
+
+#button{
+
+		padding: 10px;
+		width: 100px;
+		color: white;
+		background-color: rgb(59, 163, 224);
+		border: none;
+}
+
+#box{
+
+		background-color: rgb(216, 216, 216);
+		margin: auto;
+		width: 300px;
+		padding: 20px;
+		text-align: center;
+}
+
+
